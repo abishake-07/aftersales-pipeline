@@ -1,0 +1,11 @@
+# Local data files — regenerate with src/generate_tickets.py
+data/
+__pycache__/
+*.pyc
+
+# Environment config (contains account ID — not a secret but keep private)
+# Commit .env.example instead.
+.env
+
+# Never commit AWS credentials
+.aws/
